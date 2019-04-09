@@ -14,6 +14,31 @@
          num.value = Math.sin(num.value);
         }
         </script>
+        <script type="text/javascript">
+            function suma() {
+             var num = document.getElementById("n1");
+             num.value = Math.pow(num.value+num.value);
+            }
+            </script>
+        <script type="text/javascript">
+            function resta() {
+             var num = document.getElementById("n1");
+             num.value = Math.pow(num.value-num.value);
+            }
+            </script>
+        <script type="text/javascript">
+            function multiplicacion() {
+             var num = document.getElementById("n1");
+             num.value = Math.pow(num.value*num.value);
+            }
+            </script>
+        <script type="text/javascript">
+            function division() {
+             var num = document.getElementById("n1");
+             num.value = Math.pow(num.value/num.value);
+            }
+            </script>
+        
     </head>
     <body>
      <h1>Calculadora de Pedro David Chalas Garcia</h1>
@@ -22,6 +47,10 @@
      <p>
      <button onclick="cube()"> x^3 </button>
      <button onclick="seno()"> seno </button>
+     <button onclick="suma()"> Suma </button>
+     <button onclick="resta()"> Resta </button>
+     <button onclick="multiplicacion()"> Multiplicacion </button>
+     <button onclick="division()"> Division </button>
      </p>
     </body>
 </html>
